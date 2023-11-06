@@ -1,5 +1,5 @@
-import { BOARD_COLS, BOARD_ROWS, Board, BoardCellValue } from "../../domain/models/board";
-import { BoardService } from "../../domain/services/services";
+import { BOARD_COLS, BOARD_ROWS, Board, BoardCellValue } from "../../../../domain/models/board";
+import { BoardService } from "../../../../domain/services/services";
 import { BoardScore } from "./board-score";
 
 function mapCellValueToTailwindBackgroundColor(value: BoardCellValue): string {

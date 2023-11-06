@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, Component, Input, OnChanges } from '@angular/core';
-import { BOARD_COLS, BOARD_ROWS, Board, BoardCellValue } from 'src/domain/models/board';
-import { BoardService } from 'src/domain/services/services';
+import { BOARD_COLS, BOARD_ROWS, Board, BoardCellValue } from 'src/../../domain/models/board';
+import { BoardService } from 'src/../../domain/services/services';
 
 const boardStyles = {
   aspectRatio: `${BOARD_COLS}/${BOARD_ROWS}`,

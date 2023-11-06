@@ -1,20 +1,19 @@
-import { BOARD_COLS, BOARD_ROWS } from './domain/constants';
+import { Board, BOARD_COLS, BOARD_ROWS } from '../../domain/models/board';
 import { drawGameOver } from './game-over';
 import { repeat } from './utils';
 import {
-  TBoard,
   getCellValue,
   getInitialBoard,
   moveCurrentBlockDown,
   moveCurrentBlockLeft,
   moveCurrentBlockRight,
   rotateCurrentBlock,
-} from './domain/board';
+} from '../../domain/services/board/board.service';
 import { configureKeyboard } from './keyboard';
 
 configureKeyboard();
 
-function drawBoard(board: TBoard) {
+function drawBoard(board: Board) {
   console.clear();
 
   if (board.status === 'game-over') return drawGameOver(board);

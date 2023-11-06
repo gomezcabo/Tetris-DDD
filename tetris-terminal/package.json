@@ -4,7 +4,7 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "start": "tsc && node dist/tetris.js"
+    "start": "tsc && node ./dist/tetris-terminal/src/tetris.js"
   },
   "devDependencies": {
     "@types/keypress": "^2.0.30",

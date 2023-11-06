@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { BoardCellValue } from "@/src/domain/models/board";
+import { BoardCellValue } from "../../../../../domain/models/board";
 
 const { value } = defineProps<{ value: BoardCellValue }>();
 

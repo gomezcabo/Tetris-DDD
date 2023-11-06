@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import BoardCell from "./BoardCell.vue";
-import { BOARD_COLS, BOARD_ROWS } from "../../../domain/models/board";
+import { BOARD_COLS, BOARD_ROWS } from "../../../../../domain/models/board";
 import BoardScore from "./BoardScore.vue";
-import { Board } from "../../../domain/models/board";
-import { BoardService } from "../../../domain/services/services";
+import { Board } from "../../../../../domain/models/board";
+import { BoardService } from "../../../../../domain/services/services";
 
 const { board } = defineProps<{
   board: Board;

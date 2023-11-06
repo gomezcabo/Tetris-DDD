@@ -3,8 +3,8 @@ import { ref, onMounted } from "vue";
 
 import TetrisBoard from "./TetrisBoard.vue";
 import GameOverDialog from "./GameOverDialog.vue";
-import { BoardService } from "../../../domain/services/services.ts";
-import { Board } from "../../../domain/models/board";
+import { BoardService } from "../../../../../domain/services/services.ts";
+import { Board } from "../../../../../domain/models/board";
 
 const setBoard = (newBoard: Board) => {
   board.value = newBoard;
