@@ -1,5 +1,8 @@
 # Tetris DDD
 
+![image](https://github.com/gomezcabo/Tetris-DDD/assets/11420168/04dc0070-bd05-4623-b286-e1f2e68c580b)
+
+
 ## About The Project
 
 "Tetris DDD" is a repository that implements the classic game of Tetris using Domain-Driven Design (DDD) principles. This approach separates the game's domain logic from the UI interface, allowing the same domain code (located in the `domain` folder) to be reused across four different projects utilizing:
