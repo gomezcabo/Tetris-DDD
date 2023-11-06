@@ -1,0 +1,12 @@
+<script setup lang="ts">
+const { score, onRestart } = defineProps<{ score: number; onRestart: () => void }>();
+</script>
+<template>
+  <div class="absolute top-0 left-0 h-full w-full bg-black/50 flex justify-center items-center">
+    <div class="flex flex-col items-center bg-white rounded shadow-xl px-8 py-4">
+      <div class="text-xl font-medium">Game Over</div>
+      <div>Score: {{ score }}</div>
+      <button class="px-2 py-1 mt-4 rounded bg-green-500 text-white shadow" @click="onRestart">Try again!</button>
+    </div>
+  </div>
+</template>

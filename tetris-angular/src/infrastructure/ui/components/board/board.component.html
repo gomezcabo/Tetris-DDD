@@ -1,0 +1,14 @@
+<div class="h-full flex">
+  <div class="shadow-xl w-auto h-full mx-auto rounded-lg bg-white relative">
+    <div
+      class="h-full grid grid-rows-20 grid-cols-10 gap-px p-2"
+      [style]="boardStyles"
+    >
+      <app-board-cell *ngFor="let color of cellColors" [color]="color" />
+      <app-board-score
+        [score]="board.score"
+        class="absolute w-32 right-0 -mr-36 -mt-2 shadow-xl h-fit p-2 rounded bg-white text-center"
+      />
+    </div>
+  </div>
+</div>
