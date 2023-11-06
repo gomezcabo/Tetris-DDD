@@ -1,4 +1,4 @@
-import { MatrixService } from "../services";
+import { MatrixService } from "../../services";
 import { BLOCKS, Block } from "../../models/block";
 
 export function getNewRandomBlock(): Block {

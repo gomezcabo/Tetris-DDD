@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@vitest/coverage-v8": "^0.34.6",
+    "vitest": "^0.34.6"
+  },
+  "scripts": {
+    "react": "cd tetris-react && npm install && npm run dev",
+    "angular": "cd tetris-angular && npm install && npm start",
+    "vue": "cd tetris-vue && npm install && npm run dev",
+    "terminal": "cd tetris-terminal && npm install && npm start",
+    "test": "vitest --config vitest.config.js --coverage"
+  }
+}

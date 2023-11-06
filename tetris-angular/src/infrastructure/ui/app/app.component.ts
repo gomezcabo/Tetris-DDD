@@ -1,6 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { BoardService } from 'src/../../domain/services/services';
+import { BoardService } from 'src/../../domain/services';
 
 @Component({
   selector: 'app-root',

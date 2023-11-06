@@ -1,7 +1,7 @@
 import { Block } from "../../models/block";
 import { BOARD_COLS, BOARD_ROWS, Board, BoardCellValue } from "../../models/board";
 import { Coordinate } from "../../models/coordinate";
-import { BlockService, CoordinateService, MatrixService } from "../services";
+import { BlockService, CoordinateService, MatrixService } from "../../services";
 
 export function cloneBoard(board: Board): Board {
   return {

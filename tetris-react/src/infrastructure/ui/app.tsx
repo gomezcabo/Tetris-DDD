@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Board } from "../../../../domain/models/board";
-import { BoardService } from "../../../../domain/services/services";
+import { BoardService } from "../../../../domain/services";
 import { TetrisBoard } from "./board";
 import { GameOverDialog } from "./game-over-dialog";
 
